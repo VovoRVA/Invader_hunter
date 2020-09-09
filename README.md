@@ -1,3 +1,10 @@
+# How to run script
+
+Run `python3 run.py` to use dafault arguments (with accuracy 0.8, invader_file 'invader_1.txt' and radar_file 'radar_sample.txt').
+Or you can start script like `python3 run.py 0.65 invader_file.txt, radar_file.txt` to use your own accuracy and files
+The script's output is a pair of invader's initial(top left) coordinate, it's accuracy rounded down to 3 decimal points. 
+e.g. `([0, 1], 0.875)`
+
 # Development assignment
 
 Space invaders are upon us!
